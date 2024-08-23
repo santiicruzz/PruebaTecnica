@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\santi\\source\\repos\\Back\\Back.csproj": {}
+    "C:\\Users\\santi\\Documents\\Proyectos Angular\\PruebaTecnica\\Back\\Back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\santi\\source\\repos\\Back\\Back.csproj": {
+    "C:\\Users\\santi\\Documents\\Proyectos Angular\\PruebaTecnica\\Back\\Back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\source\\repos\\Back\\Back.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\Documents\\Proyectos Angular\\PruebaTecnica\\Back\\Back.csproj",
         "projectName": "Back",
-        "projectPath": "C:\\Users\\santi\\source\\repos\\Back\\Back.csproj",
+        "projectPath": "C:\\Users\\santi\\Documents\\Proyectos Angular\\PruebaTecnica\\Back\\Back.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\source\\repos\\Back\\obj\\",
+        "outputPath": "C:\\Users\\santi\\Documents\\Proyectos Angular\\PruebaTecnica\\Back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,9 +46,31 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.7.1, )"
             }
           },
           "imports": [
